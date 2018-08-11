@@ -1,0 +1,10 @@
+name: {{ cookiecutter.package_name }}-dev
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pytest
+  - pytest-cov
+  - jupyterlab
+  - click
